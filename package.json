@@ -1,0 +1,21 @@
+{
+  "name": "marketing-api-service",
+  "version": "2.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jialing Wang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.0",
+    "soap": "^1.0.0",
+    "strong-soap": "^3.5.6"
+  }
+}
