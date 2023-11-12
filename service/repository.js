@@ -11,17 +11,18 @@ module.exports = {
         Shipping_cost: '',
         Net_balance:'',
         Order_status: '',
-        created_at: ''
+        created_at: '',
+        details: [
+            {
+                ID_product: '',
+                Amount: '',
+                Total_price: '',
+                Discount: '',
+                created_at: ''
+            }
+        ]
     },
-    OrderDetailsRepo: {
-        ID_order: '',
-        ID_product: '',
-        Amount: '',
-        Total_price: '',
-        Discount: '',
-        created_at: ''
-    },
-    ProductRepo: {
+    newProductRepo: {
         ID_product: '',
         Product_name: '',
         Product_price: '',
@@ -30,6 +31,11 @@ module.exports = {
         Exp_date: '',
         Product_status: '',
         created_at: ''
+    },
+    updateProductRepo: {
+        ID_product: '',
+        Product_price: '',
+        Product_stock: '',
     },
     ShippingCostRepo: {
         Shipping_cost: '',
